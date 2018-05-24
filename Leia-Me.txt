@@ -1,0 +1,7 @@
+Leia-Me
+
+Clique com botao direito em Biblitecas no NetBeans 
+
+item Adicionar Jar/Pasta
+
+depois adicionado clicar com botao direito no projeto limpar e construir para cliar o setup

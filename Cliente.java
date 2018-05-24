@@ -42,18 +42,7 @@ public class Cliente {
 		this.saida.println(dado);
 	}
 	
-	/*public String recebeDados() throws IOException {
-		String retorno = "";	
-		InputStream is = this.socketCliente.getInputStream();
-		
-		// recebe msgs do servidor e imprime na tela
-		Scanner s = new Scanner(is);
-		
-		retorno = s.nextLine();
-		
-		return retorno;
-	}*/
-	
+
 	public void fechaConexao() throws IOException{
 		this.saida.close();
 		this.socketCliente.close();
