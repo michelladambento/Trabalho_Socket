@@ -39,14 +39,13 @@ public class ClientePassivoEscravo {
 	}
 	
 	public void enviaDados(String dado) throws IOException {
-		// lê msgs do teclado e manda pro servidor
+		
 		this.saida = new PrintStream(this.socketCliente.getOutputStream());
 		
 		this.saida.println(dado);
 	}
 	
 
-	
 	public void fechaConexao() throws IOException{
 		this.saida.close();
 		this.socketCliente.close();
